@@ -1,18 +1,44 @@
-.body{
-    background-image: url ("https://cdn.cnn.com/cnnnext/dam/assets/200311093607-jeff-divine-surf-70s-1.jpg");
+html{
+    height: 100%
+}
+body{
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/200311093607-jeff-divine-surf-70s-1.jpg");
     background-color: #cccccc;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100%;
+    
 }
 
 .homeForm{
-    display: flexbox;
+    /* position: relative; */
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 50px;
+    height: 100px;
+    width: 700px;
+    
 }
+
 #homeSearch{
+    display:flex;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 12px -1px rgba(0, 0, 0, .3);
+    /* transition: all 1s ease-in-out; */
+    
+}
+
+#homeSearch:focus{
+    width: 82%;
+    height: 82%;
+    transition: all .15s ease-in-out;
+    place: #FFFFFF;
     
 }
