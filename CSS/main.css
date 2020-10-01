@@ -1,0 +1,50 @@
+
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+  }
+
+  nav {
+     width: calc(100% - 150px);
+     margin: auto;
+     margin-bottom: 0px;
+  }
+
+  li, a {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      color: #546463;
+      text-decoration: none;
+  }
+   
+  header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 30px 3%;
+  }
+
+  .logo {
+    cursor: pointer;
+
+  }
+
+    .links {
+        padding-left: 15%;
+        padding-bottom: 12px;
+    }
+
+
+  .links li {
+    display: inline-block;
+    padding: 0px 40px;
+  }
+
+  .links li a {
+      transition: all 0.3s ease 0s;
+  }
+
+  
