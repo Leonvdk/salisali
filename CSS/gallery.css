@@ -1,57 +1,60 @@
-.snippet-result-code {
-  height: 500px
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
 }
+.photo-container {
+  
+  width: 30vw;
+  height: 300px;
 
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-  -webkit-column-count: 5;
-  -webkit-column-gap: 0px;
-  -moz-column-count: 5;
-  -moz-column-gap: 0px;
-  column-count: 5;
-  column-gap: 0px;
 }
-
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
+.photo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; 
 }
-
-@media (max-width: 1200px) {
-  #photos {
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    column-count: 4;
-  }
+.photo1 {
+  background-image: url('../galleryImages/image/img-2.jpg');
 }
-
-@media (max-width: 1000px) {
-  #photos {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
+.photo2 {
+  background-image: url('../galleryImages/image/img-3.jpg');
 }
-
-@media (max-width: 800px) {
-  #photos {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-  }
+.photo3 {
+  background-image: url('../galleryImages/image/img-4.jpg');
 }
-
-@media (max-width: 400px) {
-  #photos {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
-    column-count: 1;
-  }
+.photo4 {
+  background-image: url('../galleryImages/image/img-5.jpg');
 }
+.photo5 {
+  background-image: url('../galleryImages/image/img-6.jpg');
+}
+.photo6 {
+  background-image: url('../galleryImages/image/img-7.jpg');
+}
+.photo7 {
+  background-image: url('../galleryImages/image/img-8.jpg');
 
-body {
-  margin: 0;
-  padding: 0;
+}
+.photo8 {
+  background-image: url('../galleryImages/image/img-9.jpg');
+}
+.photo9 {
+  background-image: url('../galleryImages/image/img-10.jpg');
+}
+.photo10 {
+  background-image: url('../galleryImages/image/img-11.jpg');
+}
+.photo11 {
+  background-image: url('../galleryImages/image/img-12.jpg');
+}
+.photo12 {
+  background-image: url('../galleryImages/image/img-13.jpg');
+}
+.photo13 {
+  background-image: url('../galleryImages/image/img-14.jpg');
+}
+.photo14 {
+  background-image: url('../galleryImages/image/img-1.jpg');
 }
