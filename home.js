@@ -22,18 +22,8 @@ input.addEventListener("input", function dropdown(){
         
         if(currentInput.length == 0 || !(searchDropdown.toLocaleLowerCase().includes(currentInput.toLocaleLowerCase()))){
             htmlDropdown.style.visibility = "hidden"}                                // Hide dropdown while input doesn't match spots
-        
     }
 
         
 })
 
-// User types one character and we search an array to find all matching options
-    
-
-
-// When the user types we need to listen to the typing event
-// Upon typing a letter call the function
-// Loop through the array of options
-// check all matching options (search helper methods)
-// repaint the dom with all of the matching options
