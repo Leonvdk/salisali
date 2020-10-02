@@ -3,26 +3,30 @@
   flex-wrap: wrap;
 }
 .photo-container {
-  
+  position: relative;
   width: 30vw;
   height: 300px;
 
 
 }
+.photo-container p{
+  position: absolute;
+  visibility: hidden;
+  bottom: 0;
+  text-align: center;
+}
 /* opacity  */
-.photoInfos-container {
+.photoInfos {
   display: inline-block;
   height: 300px;
   width: 30vw;
   
 }
-.photoInfos p {
-  visibility: hidden;
-}
-.photoInfos:hover {
+
+.photo-container:hover {
   opacity: 0.5;
 }
-.photoInfos:hover p {
+.photo-container:hover p {
   visibility: visible;
 }
 /* photo */
