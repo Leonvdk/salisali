@@ -7,7 +7,25 @@
   width: 30vw;
   height: 300px;
 
+
 }
+/* opacity  */
+.photoInfos-container {
+  display: inline-block;
+  height: 300px;
+  width: 30vw;
+  
+}
+.photoInfos p {
+  visibility: hidden;
+}
+.photoInfos:hover {
+  opacity: 0.5;
+}
+.photoInfos:hover p {
+  visibility: visible;
+}
+/* photo */
 .photo {
   background-size: cover;
   background-position: center;
@@ -58,3 +76,4 @@
 .photo14 {
   background-image: url('../galleryImages/image/img-1.jpg');
 }
+
