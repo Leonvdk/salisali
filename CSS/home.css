@@ -7,6 +7,7 @@ body{
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100vw 100vh ;
     display: grid;
     justify-content: center;
     align-items: flex-end;
@@ -73,9 +74,15 @@ hr{
 }
 #searchDropdown:focus{ visibility: visible;}
 
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (min-width: 1001px){
     body {
-        background-size: 1000px 1200px;
+        background-size: 100vw 100vh ;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    body {
+
     }
     #homeSearch{
         width: 100%;
@@ -87,9 +94,7 @@ hr{
   }
 
   @media only screen and (max-width: 415px) {
-    body {
-        background-size: 1000px 1200px;
-    }
+
     #homeSearch{
         width: 100%;
         height: auto;
