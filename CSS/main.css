@@ -27,6 +27,9 @@ body {
 
 .navbar-links ul {
   display: flex;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  font-weight: 700;
   margin: 0;
   padding: 0;
 }
@@ -65,7 +68,7 @@ body {
 }
 
 .navbar-links{
-  width: calc(44% - 150px);
+  width: calc(64% - 150px);
   margin: auto;
   margin-bottom: 0px;
 }
