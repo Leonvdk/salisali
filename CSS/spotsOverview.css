@@ -1,0 +1,29 @@
+/* .body, html{
+    height: 100vh;
+    width: 100vw;
+} */
+
+.whitespace{
+    height: 120px;
+
+}
+
+.spots-container{
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-gap: 1vw;
+    margin-left: ;
+    margin-right: ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.spot-tile{
+  
+    text-align: center;
+    justify-self: center;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
