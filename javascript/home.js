@@ -3,7 +3,7 @@ let currentInput = input.value;
 let htmlDropdown = document.querySelector('#searchDropdown');
 showSpots = [];
 
-let spots = ['Cascais', 'Costa da Caparica', 'Nazaré', 'Belém', 'Cova do Vapor', 'Carcavelos', 'Bicas'];                 // Array with all spots
+let spots = ['Cascais', 'Costa da Caparica', 'Nazaré', 'Belém','Carcavelos'];                 // Array with all spots
 
 input.addEventListener("input", function dropdown(){
     
