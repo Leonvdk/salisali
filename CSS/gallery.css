@@ -1,26 +1,37 @@
+.header {
+  text-align: center;
+  
+}
+
+/*gallery layout*/
 .photo-gallery {
   display: flex;
   flex-wrap: wrap;
 }
+
+/*photo boarder*/
 .photo-container {
   position: relative;
   width: 30vw;
-  height: 300px;
-
-
+  height: 475px;
 }
+/*paragraph of location and photographer*/
 .photo-container p{
+  float: center;
   position: absolute;
   visibility: hidden;
   bottom: 0;
   text-align: center;
+}
+
+div.p {
+  font-size: large;
 }
 /* opacity  */
 .photoInfos {
   display: inline-block;
   height: 300px;
   width: 30vw;
-  
 }
 
 .photo-container:hover {
