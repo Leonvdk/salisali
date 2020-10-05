@@ -3,6 +3,7 @@
   
 }
 
+
 /*gallery layout*/
 .photo-gallery {
   display: flex;
@@ -22,6 +23,7 @@
   visibility: hidden;
   bottom: 0;
   text-align: center;
+  font-size: xx-large;
 }
 
 div.p {
@@ -51,8 +53,8 @@ div.p {
 /*responsive layout*/
 @media screen and (max-width: 1200px) {
   .photo-container {
-    -ms-flex: 50%;
-    flex: 50%;
+    -ms-flex: 70%;
+    flex: 60%;
     max-width: 50%;
   }
 }
