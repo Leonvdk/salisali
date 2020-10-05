@@ -1,29 +1,73 @@
-/* .body, html{
-    height: 100vh;
-    width: 100vw;
-} */
+body{
+    background-image: url("../background.jpg");
+    background-size: initial;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spot-name{
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 400px;
+    width: 400px;
+    font-size: 3vw;
+    color: #FFFFFF;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;   }
 
 .whitespace{
-    height: 120px;
-
-}
+    height: 120px;}
 
 .spots-container{
+    size: fit-content;
     display: grid;
-    grid-template-rows: repeat(2, 400px);
     grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-rows: repeat(2, 400px);
     grid-gap: 1vw;
-    margin-left: ;
-    margin-right: ;
     flex-wrap: wrap;
-    justify-content: center;
-}
+    justify-content: center;}
 
-.spot-tile{
-  
+/* .spot-tile{
+    border-radius: 5px;
+    
+} */
+.spot-image{
     text-align: center;
     justify-self: center;
-    background-color: red;
-    height: 100%;
-    width: 100%;
+    background-color: #213F23;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+}
+.spot-info{
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    padding: 4%;
+    padding-bottom: 10%;
+    position: relative;
+    background-color: #F2F5F8;
+    opacity: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 2;
+    border-radius: 5px;
+
+    color: #000000;
+    text-decoration: none;
+    font-size: 3.5vh;
+    
+}
+.spot-info:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    /* height: 100%; */
+    transition: all 400ms ease-out;
+    
 }
