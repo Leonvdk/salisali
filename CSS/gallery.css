@@ -48,6 +48,22 @@ div.p {
   height: 100%;
   width: 100%; 
 }
+/*responsive layout*/
+@media screen and (max-width: 1200px) {
+  .photo-container {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/*responsive layout - makes them stack ontop each other */
+@media screen and (max-width: 800px) {
+  .photo-container {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 .photo1 {
   background-image: url('../galleryImages/image/img-2.jpg');
 }
