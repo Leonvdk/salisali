@@ -1,7 +1,7 @@
 body{
-    background-image: url("../background.jpg");
+    /* background-image: url("../background.jpg");
     background-size: initial;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -29,6 +29,16 @@ body{
     grid-gap: 1vw;
     flex-wrap: wrap;
     justify-content: center;}
+
+.map-container{
+    display: flex;
+    justify-content: center;
+}
+.map-n-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
 
 /* .spot-tile{
     border-radius: 5px;

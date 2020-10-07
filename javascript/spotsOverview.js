@@ -21,7 +21,7 @@ let spots = [
     description: `As the biggest wave ever surfed on this planet, Nazaré isn't a spot for the faint hearted.`},
    
     {name: 'Arrifana',
-    image: 'https://www.bluejuice-camps.de/wp-content/uploads/2016/11/IMG_6845-Kopie.jpg',
+    image: 'https://www.surf-forecast.com/system/images/2840/large/Arrifana.jpg?1308395035',
     sort: 'beachbreaks & point',
     page: 'arrifana',
     description: `Arrifana is known for it's consistent surf and provides waves for every level.`},
