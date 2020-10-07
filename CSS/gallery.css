@@ -8,10 +8,7 @@
 .photo-gallery {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
-  /* padding: 10px; */
-
-  
+    
 }
 
 /*photo boarder*/
@@ -29,6 +26,8 @@
   bottom: 0;
   text-align: center;
   font-size: xx-large;
+  
+  
 }
 
 div.p {
@@ -59,12 +58,12 @@ div.p {
 @media screen and (max-width: 1200px) {
   .photo-container {
     -ms-flex: 70%;
-    flex: 60%;
-    max-width: 50%;
+    flex: 65%;
+    max-width: 48%;
   }
 }
 /*responsive layout - makes them stack ontop each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 825px) {
   .photo-container {
     -ms-flex: 100%;
     flex: 100%;
@@ -72,46 +71,46 @@ div.p {
   }
 }
 .photo1 {
-  background-image: url('../galleryImages/image/img-2.jpg');
+  background-image: url('../galleryImages/img-1.jpg');
 }
 .photo2 {
-  background-image: url('../galleryImages/image/img-3.jpg');
+  background-image: url('../galleryImages/img-3.jpg');
 }
 .photo3 {
-  background-image: url('../galleryImages/image/img-4.jpg');
+  background-image: url('../galleryImages/img-4.jpg');
 }
 .photo4 {
-  background-image: url('../galleryImages/image/img-5.jpg');
+  background-image: url('../galleryImages/img-5.jpg');
 }
 .photo5 {
-  background-image: url('../galleryImages/image/img-6.jpg');
+  background-image: url('../galleryImages/img-6.jpg');
 }
 .photo6 {
-  background-image: url('../galleryImages/image/img-7.jpg');
+  background-image: url('../galleryImages/img-7.jpg');
 }
 .photo7 {
-  background-image: url('../galleryImages/image/img-8.jpg');
+  background-image: url('../galleryImages/img-8.jpg');
 
 }
 .photo8 {
-  background-image: url('../galleryImages/image/img-9.jpg');
+  background-image: url('../galleryImages/img-9.jpg');
 }
 .photo9 {
-  background-image: url('../galleryImages/image/img-10.jpg');
+  background-image: url('../galleryImages/img-10.jpg');
 }
 .photo10 {
-  background-image: url('../galleryImages/image/img-11.jpg');
+  background-image: url('../galleryImages/img-11.jpg');
 }
 .photo11 {
-  background-image: url('../galleryImages/image/img-12.jpg');
+  background-image: url('../galleryImages/img-12.jpg');
 }
 .photo12 {
-  background-image: url('../galleryImages/image/img-13.jpg');
+  background-image: url('../galleryImages/img-13.jpg');
 }
 .photo13 {
-  background-image: url('../galleryImages/image/img-14.jpg');
+  background-image: url('../galleryImages/img-14.jpg');
 }
 .photo14 {
-  background-image: url('../galleryImages/image/img-1.jpg');
+  background-image: url('../galleryImages/img-1.jpg');
 }
 
