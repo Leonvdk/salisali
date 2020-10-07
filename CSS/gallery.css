@@ -8,13 +8,18 @@
 .photo-gallery {
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: space-around; */
+  /* padding: 10px; */
+
+  
 }
 
 /*photo boarder*/
 .photo-container {
   position: relative;
-  width: 32vw;
+  width: 30vw;
   height: 475px;
+  padding: 8px;
 }
 /*paragraph of location and photographer*/
 .photo-container p{
