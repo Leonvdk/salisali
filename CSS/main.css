@@ -336,7 +336,6 @@ footer{
     grid-column-start: 1;
     grid-column-end: 3;
   }
-<<<<<<< HEAD
 }
 
 
@@ -344,10 +343,9 @@ footer{
 
   .btn{
     margin: 0;
-=======
+  }
   
   .right-col{
->>>>>>> b0d0c7108aff9090640fcda45668d5810e5a534d
     width: 100%;
     margin-bottom: 20px;
     grid-column-start: 1;
