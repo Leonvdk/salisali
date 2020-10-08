@@ -1,0 +1,117 @@
+.header {
+  text-align: center;
+  
+}
+
+
+/*gallery layout*/
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+    
+}
+
+/*photo boarder*/
+.photo-container{
+  position: relative;
+  width: 30vw;
+  height: 475px;
+  padding: 8px;
+}
+/*paragraph of location and photographer*/
+.photo-container p{
+  float: center;
+  position: absolute;
+  visibility: hidden;
+  bottom: 0;
+  text-align: center;
+  font-size: xx-large;
+  
+  
+}
+
+div.p {
+  font-size: large;
+}
+/* opacity  */
+.photoInfos {
+  display: inline-block;
+  height: 300px;
+  width: 30vw;
+}
+
+.photo-container:hover {
+  opacity: 0.5;
+}
+.photo-container:hover p {
+  visibility: visible;
+}
+/* photo */
+.photo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; 
+}
+
+/*responsive layout*/
+@media screen and (max-width: 1200px) {
+  .photo-container {
+    -ms-flex: 70%;
+    flex: 65%;
+    max-width: 48%;
+  }
+}
+/*responsive layout - makes them stack ontop each other */
+@media screen and (max-width: 825px) {
+  .photo-container {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.photo1 {
+  background-image: url('../galleryImages/img-1.jpg');
+}
+.photo2 {
+  background-image: url('../galleryImages/img-3.jpg');
+}
+.photo3 {
+  background-image: url('../galleryImages/img-4.jpg');
+}
+.photo4 {
+  background-image: url('../galleryImages/img-5.jpg');
+}
+.photo5 {
+  background-image: url('../galleryImages/img-6.jpg');
+}
+.photo6 {
+  background-image: url('../galleryImages/img-7.jpg');
+}
+.photo7 {
+  background-image: url('../galleryImages/img-8.jpg');
+
+}
+.photo8 {
+  background-image: url('../galleryImages/img-9.jpg');
+}
+.photo9 {
+  background-image: url('../galleryImages/img-10.jpg');
+}
+.photo10 {
+  background-image: url('../galleryImages/img-11.jpg');
+}
+.photo11 {
+  background-image: url('../galleryImages/img-12.jpg');
+}
+.photo12 {
+  background-image: url('../galleryImages/img-13.jpg');
+}
+.photo13 {
+  background-image: url('../galleryImages/img-14.jpg');
+}
+.photo14 {
+  background-image: url('../galleryImages/img-1.jpg');
+}
+
