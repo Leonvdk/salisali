@@ -61,14 +61,16 @@ hr {
     padding-bottom: 0.5vw;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
+    
+}
+
+.wave-text {
     color:black;
     font-family: monospace;
     font-size: 50%;
     margin-top: 2vw;
-}
-
-.wave-text {
     text-align: justify;
+    line-height: 1.5vw;
 }
 
 .surrounding-1 {
@@ -96,6 +98,7 @@ hr {
     font-size: 50%;
     margin-top: 2vw; 
     text-align: justify;
+    line-height: 1.5vw;
 }
 
 .surrounding-2 {
@@ -131,7 +134,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-     height: 29vw;
+    height: 29vw;
     margin:auto;
 }
 
@@ -151,6 +154,7 @@ hr {
     font-family: monospace;
     font-size: 50%;
     text-align: justify;
+    line-height: 1.5vw;
 }
 
 .forecast {
@@ -213,12 +217,8 @@ hr {
     grid-row-end: 6;
     grid-template-rows: 1fr 3fr;
     padding-bottom: 1vw;
-    margin: 0vw 0.25vw 0.25vw 0.25vw;
     display: grid;
-    color:black;
-    font-family: monospace;
-    font-size: 50%;
-    margin-top: 2vw;
+    margin: 0vw 0.25vw 0.25vw 0.25vw;
 } 
 
 .map-title {
@@ -234,7 +234,12 @@ hr {
 }
 
 .map-text {
+    color:black;
+    font-family: monospace;
+    font-size: 50%;
+    margin-top: 2vw;
     text-align: justify;
+    line-height: 1.5vw;
 }
 
 .map-pic {
@@ -245,7 +250,7 @@ hr {
 }
 
 .map-frame {
-    border-radius: 25px;
+    border-radius: 10px;
     width: 95%;
     height: 100%;
     margin-left: 2.5%;
