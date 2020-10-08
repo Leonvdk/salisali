@@ -1,13 +1,18 @@
-function getRandomSize(min, max) {
-    return Math.round(Math.random() * (max - min) + min);
-  }
-  
-  var allImages = "";
-  
-  for (var i = 0; i < 25; i++) {
-    var width = getRandomSize(200, 400);
-    var height = getRandomSize(200, 400);
-    allImages += '<img src="https://images.pexels.com/photos/1681148/pexels-photo-1681148.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500/' + width + '/' + height + '" alt="beaches and surf spots">';
-  }
-  
-  photos.innerHTML = allImages
+let thumbnails = document.querySelectorAll(".image-popup");
+
+let popupBackground = document.querySelector("#popup-background");
+let popupTitle = document.querySelector("#popup-title");
+let popupImage = document.querySelector("#popup-image");
+
+thumbnails.forEach(thumbnail => {
+    thumbnail.addEventListener("click", function(){
+        popupBackground.style.display = "block";
+        popupTitle.innerHTML = this.alt;
+        popupImage.src = this.src;
+    })
+});
+
+popupBackground.addEventListener("click", function(){
+    popupBackground.style.display = "none";
+})
+

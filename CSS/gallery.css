@@ -12,7 +12,7 @@
 }
 
 /*photo boarder*/
-.photo-container {
+.photo-container{
   position: relative;
   width: 30vw;
   height: 475px;
@@ -54,6 +54,7 @@ div.p {
   height: 100%;
   width: 100%; 
 }
+
 /*responsive layout*/
 @media screen and (max-width: 1200px) {
   .photo-container {
