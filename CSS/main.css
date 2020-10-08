@@ -161,7 +161,7 @@ footer{
   justify-self: center;
 }
 .right-col{
-  width: 50%;
+  width: 100%;
   grid-column-start: 2;
   grid-column-end: 3;
   justify-self: end;
@@ -212,7 +212,7 @@ footer{
   font-weight: 700;
   outline: none;
   border-radius: 30px;
-  min-width: 260px;
+  /* min-width: 260px; */
   margin-bottom: 10px;
 }
 
@@ -230,6 +230,7 @@ footer{
   cursor: pointer;
   transition: opacity .3s linear;
   margin-bottom: 10px;
+  
 
 }
 
@@ -254,11 +255,17 @@ footer{
     padding: 0 20px;
     
   }
+  .newsletter-form{
+    justify-content: flex-start;
+  }
   .btn{
     margin: 0;
-    width: 100%;
-    margin-top: 20px;
+    width: 50%;
     }
+
+  .txtb{
+    min-width: 150px;
+  }
     
   .navbar-links li a {
     border-top: 2px black;
@@ -280,7 +287,7 @@ footer{
   
   .right-col{
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
