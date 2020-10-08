@@ -19,15 +19,18 @@
   padding: 8px;
 }
 /*paragraph of location and photographer*/
-.photo-container p{
+.photo-container p {
   float: center;
   position: absolute;
   visibility: hidden;
   bottom: 0;
   text-align: center;
   font-size: xx-large;
-  
-  
+  background: #ffffff;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  padding: 11px;
+  border-radius: 5px;
 }
 
 div.p {
@@ -41,7 +44,7 @@ div.p {
 }
 
 .photo-container:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .photo-container:hover p {
   visibility: visible;
@@ -113,5 +116,8 @@ div.p {
 }
 .photo14 {
   background-image: url('../galleryImages/img-1.jpg');
+}
+.photo15 {
+  background-image: url('../galleryImages/img-15.jpg');
 }
 
