@@ -47,7 +47,7 @@ body {
   background-color: #555;
 }
 
-.toggle-button {
+.toggleBtn {
   position: absolute;
   top: 4rem;
   right: 4rem;
@@ -58,7 +58,7 @@ body {
   height: 30px;
 }
 
-.toggle-button .bar {
+.toggleBtn .bar {
   height: 3px;
   width: 100%;
   background-color: #000000;
@@ -83,7 +83,7 @@ body {
       align-items: flex-start;
   }
 
-  .toggle-button {
+  .toggleBtn {
       display: flex;
   }
 
@@ -119,6 +119,59 @@ body {
     background-color: #F5F5F5;
   }
 
+  .navbar-links.active {
+    display: flex;
+}
+
+}
+
+.surfstuff {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.surfstuff {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text h1 {
+  font-size: 72px;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-size: 30px;
+}
+
+
+
+@keyframes zoomIn{
+from{
+  background-size: 100%;
+}
+to{
+  background-size: 150%;
+}
 }
 
 /*Footer*/
@@ -283,8 +336,18 @@ footer{
     grid-column-start: 1;
     grid-column-end: 3;
   }
+<<<<<<< HEAD
+}
+
+
+@media screen and (max-width:700px){
+
+  .btn{
+    margin: 0;
+=======
   
   .right-col{
+>>>>>>> b0d0c7108aff9090640fcda45668d5810e5a534d
     width: 100%;
     margin-bottom: 20px;
     grid-column-start: 1;
