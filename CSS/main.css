@@ -119,7 +119,51 @@ body {
     background-color: #F5F5F5;
   }
 
+  .navbar-links.active {
+    display: flex;
 }
+
+}
+
+.surfstuff {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.surfstuff {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text h1 {
+  font-size: 60px;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-size: 106%;
+}
+
+
 
 /*Footer*/
 
@@ -149,6 +193,7 @@ footer{
 
 .logo{
   width: 180px;
+  
 }
 /* #logo-footer{
   grid-column-start: 2;
@@ -160,6 +205,7 @@ footer{
   align-self: center;
   justify-self: center;
 }
+
 .right-col{
   width: 100%;
   grid-column-start: 2;
@@ -190,7 +236,7 @@ footer{
 }
 
 .right-col h1{
-  font-size: 26px;
+  font-size: 176%;
 }
 
 .newsletter-form{
@@ -213,6 +259,7 @@ footer{
   outline: none;
   border-radius: 30px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .btn{
@@ -220,7 +267,7 @@ footer{
   font-style: monospace;
   font-size: 16px;
   color: #f1f1f1;
-  background: #fc5c65;
+  background: #C29020;
   border: none;
   font-weight: 700;
   outline: none;
@@ -283,7 +330,6 @@ footer{
     grid-column-start: 1;
     grid-column-end: 3;
   }
-  
   .right-col{
     width: 100%;
     margin-bottom: 20px;
@@ -291,6 +337,16 @@ footer{
     grid-column-end: 1;
     grid-row-start: 1;
   }
+}
+
+
+
+@media screen and (max-width:700px){
+
+  .btn{
+    margin: 0;}
+
+ 
   
 }
     

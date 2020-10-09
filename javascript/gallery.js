@@ -1,18 +1,7 @@
-let thumbnails = document.querySelectorAll(".image-popup");
-
-let popupBackground = document.querySelector("#popup-background");
-let popupTitle = document.querySelector("#popup-title");
-let popupImage = document.querySelector("#popup-image");
-
-thumbnails.forEach(thumbnail => {
-    thumbnail.addEventListener("click", function(){
-        popupBackground.style.display = "block";
-        popupTitle.innerHTML = this.alt;
-        popupImage.src = this.src;
-    })
-});
-
-popupBackground.addEventListener("click", function(){
-    popupBackground.style.display = "none";
-})
-
+function showImgContent(e) {
+    for(var i = 0; i < imgContent.length; i++) {
+      x = e.pageX;
+      y = e.pageY;
+      imgContent[i].style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    }
+  };
