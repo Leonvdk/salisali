@@ -10,28 +10,6 @@ hr {
     height: 10vw;
 }
 
-.spot-image {
-    border-radius: 10px;
-    background-image: url(../caparica/Caparica-Primaver-Surf-Fest.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 30vw;
-    margin: 0.5vw 0.5vw 0.25vw 0.5vw;
-}
-
-.spot-name {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 28vw;  
-    padding-right: 0.5vw;
-    color:black;
-    font-family: fantasy;
-    font-size: 350%;
-}
-
 .bloc-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,11 +24,37 @@ hr {
     font-size: 230%;
 }
 
-.kind-wave {
+.spot-image {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end:3;
     grid-row-start: 1;
     grid-row-end: 2;
+    border-radius: 10px;
+    background-image: url(../caparica/Caparica-Primaver-Surf-Fest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%;
+    margin: 0.5vw 0.5vw 0.25vw 0.5vw;
+}
+
+.spot-name {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 28vw;  
+    padding-right: 0.5vw;
+    color:black;
+    font-family: fantasy;
+    font-size: 350%;
+}
+
+.kind-wave {
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
     margin: 0vw 0.25vw 0vw 0.25vw;
     padding: 0.75vw 0vw 0.75vw 0vw;
 }
@@ -58,7 +62,6 @@ hr {
 .wave-title {
     text-align: center;
     padding: 0.5vw 0.5vw 0.5vw 0.5vw;
-   
 }
 
 .wave-text {
@@ -72,9 +75,9 @@ hr {
 
 .surrounding-1 {
     grid-column-start: 1;
-    grid-row-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,9 +100,9 @@ hr {
 
 .surrounding-2 {
     grid-column-start: 2;
-    grid-row-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     margin: 0vw 0.25vw 0vw 0vw;
 }
 
@@ -115,9 +118,9 @@ hr {
 
 .surrounding-3 {
     grid-column-start: 1;
-    grid-row-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
     margin: 0vw 0vw 0vw 0.25vw;
 }
 
@@ -129,14 +132,13 @@ hr {
     background-size: cover;
     background-attachment: scroll;
     height: 29vw;
-    margin:auto;
 }
 
 .surrounding-4 {
     grid-column-start: 2;
-    grid-row-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,8 +156,8 @@ hr {
 .forecast {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
     padding-bottom: 1vw;
     display: grid;
     margin: 0vw 0.25vw 0vw 0.25vw;
@@ -182,7 +184,6 @@ hr {
 }
 
 #lol {
-    width: 39vw;
     border: 0.25vw solid black;
     border-radius: 10px;
     background-color:black;
@@ -203,8 +204,8 @@ hr {
 .map {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
     grid-template-rows: 1fr 3fr;
     padding-bottom: 1vw;
     display: grid;
@@ -240,7 +241,7 @@ hr {
     margin-bottom: 0.75vw;
     border: 0.25vw solid black;
     border-radius: 10px;
-    margin: 0vw 3vw 1vw 3vw;
+    margin: 0vw 3vw 1.3vw 3vw;
     background-color: black;
 }
 
@@ -248,9 +249,110 @@ hr {
     border-radius: 5px;
     width: 100%;
     height: 100%;
-    /* margin: 0% 2.5% 0% 2.5%; */
 }
 
 .footer {
     height: 7vw;
+}
+
+@media screen and (max-width: 1096px) {
+    .surrounding-2-pic { 
+        height: 100%;
+     }
+}
+
+@media screen and (max-width: 906px) {
+    .surrounding-3-pic { 
+        height: 100%;
+     }
+}
+
+@media screen and (max-width: 776px) {
+
+    .bloc-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .spot-image {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;  
+    }
+    
+    .kind-wave { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;  
+     }
+
+     .wave-text {
+        line-height: normal;
+     }
+
+    .surrounding-1 { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;  
+     }
+
+     .surrounding-1-text {
+        line-height: normal;
+     }
+
+    .surrounding-2 { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5; 
+     }
+
+     .surrounding-2-pic{
+        height: 79vw;
+     }
+
+     .surrounding-3 { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;  
+     }
+
+     .surrounding-3-pic {
+        height: 79vw;
+     }
+
+     .surrounding-4
+    { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;  
+     }
+
+     .surrounding-4-text {
+        line-height: normal;
+     }
+
+     .forecast{ 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;  
+     }
+
+     .map { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;  
+     }
+
+     .map-text {
+        line-height: normal;        
+     }
 }
