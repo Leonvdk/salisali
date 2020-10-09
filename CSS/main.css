@@ -155,25 +155,15 @@ body {
 }
 
 .text h1 {
-  font-size: 72px;
+  font-size: 60px;
   letter-spacing: 0.2em;
 }
 
 p {
-  font-size: 15px;
-  margin-bottom: 5px;
+  font-size: 30px;
 }
 
 
-
-@keyframes zoomIn{
-from{
-  background-size: 100%;
-}
-to{
-  background-size: 150%;
-}
-}
 
 /*Footer*/
 
