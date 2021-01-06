@@ -15,7 +15,7 @@ input.addEventListener("input", function dropdown(){
     for(let i = 0; i < spots.length; i++){
         if(spots[i].toLocaleLowerCase().includes(currentInput.toLocaleLowerCase())){
             htmlDropdown.style.visibility = "visible";                                // Display the updated list to the user
-            let spotsLink = spots[i].split(" ").join("-")                             // Replace spaces in spot -names for "-" to create links
+            let spotsLink = spots[i].split(" ").join("-").toLowerCase();                             // Replace spaces in spot -names for "-" to create links
             searchDropdown +=  ` <a class = "dropdownOptions" href= ${spotsLink}.html>${spots[i]}</a>` 
             console.log("searchDropdown: ", searchDropdown)
             htmlDropdown.innerHTML = searchDropdown;}
